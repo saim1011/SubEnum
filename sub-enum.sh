@@ -55,7 +55,7 @@ echo -e "${GREEN}Assetfinder enumeration complete.${NC}"
 echo -e "${GREEN}Sorting the results...${NC}"
 
 # Combine and sort the results into a single file
-cat subfinder.txt assetfind.txt | sort -u > "$output_file"
+cat subfinder.txt assetfinder.txt | sort -u > "$output_file"
 
 # Clean up temporary files
 rm -f subfinder.txt assetfinder.txt
